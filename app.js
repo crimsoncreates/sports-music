@@ -274,7 +274,7 @@ function setUpdate(){
         if(durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
 
         curr_time.textContent = currentMinutes + ":" + currentSeconds;
-        total_duration.textContent = durationMinutes + ":" + durationMinutes;
+        total_duration.textContent = durationMinutes + ":" + durationSecondss;
     }
 }
 
